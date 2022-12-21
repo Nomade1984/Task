@@ -1,0 +1,58 @@
+.box {
+    background-color: #D8D8D8;
+    width: 832px;
+    height: 832px;
+    margin: 100px auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+.square {
+    width: 470px;
+    height: 440px;
+    background-color: green;
+    border-radius: 0% 37% 518% 235% / 0% 246% 520% 57%;
+}
+
+.oval {
+    z-index: 1;
+    width: 628px;
+    height: 168px;
+    background-color: #9400D3;
+    border-radius: 65px;
+    position: absolute;
+    bottom: 105px;
+    right: 100px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 205px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 225px solid red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.circle {
+    z-index: 1;
+    background-color: #3CB371;
+    width: 207px;
+    height: 207px;
+    border-radius: 50%;
+    position: absolute;
+    right: 156px;
+    bottom: 340px;
+}
+
+.stick {
+    width: 100px;
+    height: 695px;
+    background-color: #0000CD;
+    position: absolute;
+    transform: rotate(-43deg);
+    left: 385px;
+    top: 38px;
+}
